@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print -putchar
- * is written by mariam 
- * return:0
+ * main - Entry point
+ * is written by mariam
+ * Return: Always 0
  */
 int main(void)
 {
@@ -15,5 +15,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
 }
