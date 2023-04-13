@@ -24,15 +24,16 @@ s = malloc(sizeof(char) * (len1 + len2 + 1));
 if (!s)
 return (NULL);
 while (i < len1)
+{
 s[i] = s1[i];
 i++;
 }
-while (n < len2 && 1 < (len1 + n))
-S[i++] = s2[i++];
+while (n < len2 && i  < (len1 + n))
+S[i++] = s2[j++];
 while (n >= len2 && i < (len1 + len2))
-s[i++] = s2[i++];
+s[i++] = s2[j++];
 
 S[i] = ‘\0’;
 
 return (s);
-
+}
